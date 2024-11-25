@@ -10,9 +10,9 @@ All of the script are Matlab files, with ".m" extension. The necessary MATLAB to
 
 # Methodology
 Details about the methodology and numerical implementation can be found in the following paper:  
-Nitti A., de Tullio M.D., Federico I., Carbone G., "A collective intelligence approach to real-world swarm robotics" (2025)
+Nitti A., de Tullio M.D., Federico I., Carbone G., "A collective intelligence approach to real-world swarm robotics", (2025).
 
 # Organization of the repository
 All files are provided with a docstring explaining purpose, input and output of the function.  
-./SCM_steady/: contains the Matlab scripts used to run optimization problems. All the main programs have prefix <MAIN_>.
+./SCM_steady/: contains the Matlab scripts used to run optimization problems. All the main programs have prefix <MAIN_>.  
 ./utils/: contains the utility routines called in the main programs.
