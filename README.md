@@ -1,5 +1,5 @@
 # Swarm-Cooperation-Model (SCM)
-Hybrid meta-heuristic optimizer for the decentralized control of an agent swarm. It can be used both as optimization tool or as controller for autonomous vehicles, on steady and unsteady, multimodal landscapes.
+Hybrid meta-heuristic optimization algorithm. It works as optimizer for bounded, non-convex problems or as decentralized controller for autonomous vehicles. Inspired to swarm intelligence phenomena.  
 
 # Developers
 Alessandro Nitti, Polytechnic University of Bari (https://scholar.google.it/citations?user=lv1V6-4AAAAJ&hl=it&oi=ao)  
