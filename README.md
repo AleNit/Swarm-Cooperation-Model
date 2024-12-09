@@ -13,6 +13,15 @@ Details about the methodology and numerical implementation can be found in the f
 Nitti A., de Tullio M.D., Federico I., Carbone G., "A collective intelligence approach to real-world swarm robotics", (2025).
 
 # Organization of the repository
-All files are provided with a docstring explaining purpose, input and output of the function.  
-./SCM_steady/: contains the Matlab scripts used to run optimization problems. All the main programs have prefix <MAIN_>.  
-./utils/: contains the utility routines called in the main programs.
+All files are provided with a docstring explaining purpose, input and output of the function. The purpose of the main executables is reported below:  
+
+./SCM/: contains the Matlab scripts used to run optimization problems. All the main programs have prefix <MAIN_>.  
+./SCM/MAIN_SCM.m: simulates the operation of the Swarm Cooperation Model (SCM) by integrating an overdamped Langevin equation. The objective of the swarm is to find the absolute minimum of the assigned landscape function.   
+./SCM/MAIN_SCM_replications.m: runs the NNr replications of the SCM search over a test landscape function for performance comparison; evaluate success rate and mean number of function evaluations   
+./SCM/MAIN_SCM_replications_par.m: runs NNr replications of the SCM over one landscape function to assess the influence of the hyperparameters: {omega,tau,sigma0}   
+./SCM/MAIN_PSO.m: optimizes an N-dimensional landscape function with the Particle Swarm Optimization (PSO) with Matlab built-in functions   
+./SCM/MAIN_PSO_replications.m: runs the NNr replications of the PSO search over a test landscape function for performance comparison; evaluate success rate and mean number of function evaluations   
+./SCM/MAIN_MIPA.m: runs MultiStart search algorithm over test landscape functions for comparison   
+./SCM/MAIN_MIPA_replications.m: run MultiStart search algorithm over test landscape functions for comparison agents are initialized picking locations from a uniform distribution; Success rate is computed over NNr replications   
+
+./utils/: contains the utility routines called in the main programs. 
